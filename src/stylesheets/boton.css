@@ -1,0 +1,48 @@
+.container-button {
+	height: 83px;
+	display: flex;
+	flex: 1 1;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 38px;
+	background-color: #474350;
+	color: #fff;
+	cursor: pointer;
+	border: 2px solid #fff;
+	margin: 4px;
+	user-select: none;
+	border-radius: 25px;
+	transition: .3s;
+}
+
+.operator {
+	background-color: #FECDAA;
+}
+
+.container-button:hover {
+	background-color: #FCFFEB;
+	color: #666;
+}
+
+.clear-button {
+	height: 80px;
+	font-size: 1.6em;
+	display: flex;
+	flex: 1;
+	background-color: #F6C5AF;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	margin-top: 5px;
+	border: 2px solid #fff;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 45px;
+	transition: .2s;
+	user-select: none;
+}
+
+.clear-button:hover {
+	background-color: #C2714F;
+}
